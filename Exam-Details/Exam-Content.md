@@ -2,8 +2,8 @@
 ## Response types
 There are two types of questions on the exam:
 </ul>
-	<li>_Multiple choice:_ Has one correct response and three incorrect responses (distractors)</li>
-	<li>_Multiple response:_ Has two or more correct responses out of five or more response options</li>
+	<li><strong>Multiple choice:</strong> Has one correct response and three incorrect responses (distractors)</li>
+	<li><strong>Multiple response:</strong> Has two or more correct responses out of five or more response options</li>
 </ul>
 Select one or more responses that best complete the statement or answer the question. Distractors, or
 incorrect answers, are response options that a candidate with incomplete knowledge or skill might choose.
