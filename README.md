@@ -1,7 +1,6 @@
 # AWS-Certified-Cloud-Practitioner-Cert-Guide
-This guide is usefull for someone who is looking to enter in cloud domain and want to clear his first certification exam [ AWS CCP ].<br>
-I'm shyamji tripathi a [" Certified Cloud Practitioner "](https://www.credly.com/badges/8bc7b809-933e-432c-b9aa-ba906738e9e0/public_url) here i'm sharing my knowledge and resource to you so that you can pass this exam <br>
-in less time and effort.
+This guide is usefull for someone who is looking to enter in cloud domain and want to clear his first certification exam [ AWS CCP ]. <br>
+I'm shyamji tripathi a [" Certified Cloud Practitioner "](https://www.credly.com/badges/8bc7b809-933e-432c-b9aa-ba906738e9e0/public_url) here i'm sharing my knowledge and resource to you so that you can pass this exam in less time and effort.
 
 ## Sections of this guide
 
