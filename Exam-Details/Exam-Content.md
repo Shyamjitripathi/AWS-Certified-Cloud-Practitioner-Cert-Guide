@@ -17,4 +17,4 @@ candidate performance on these unscored questions to evaluate these questions fo
 questions. These unscored questions are not identified on the exam
 
 ## Exam Results
-The AWS Certified Cloud Practitioner exam is a pass or fail exam. Your results for the exam are reported as a scaled score of 100–1,000. The minimum passing score is 700. <b> [ You will immediately know that you are pass or fail after giving exam ]. <b>
+The AWS Certified Cloud Practitioner exam is a pass or fail exam. Your results for the exam are reported as a scaled score of 100–1,000. The minimum passing score is 700. <b> [ You will immediately know that you will pass or fail after giving exam ]. <b>
