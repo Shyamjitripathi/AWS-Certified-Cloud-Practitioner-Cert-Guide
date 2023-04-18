@@ -1,0 +1,20 @@
+## 1. What is cloud
+Cloud computing is a way to access computer resources (like servers, storage, databases, software, and more) over the internet, instead of having those resources physically located on your own computer or in your office.Think of it like renting a car instead of owning one. With cloud computing, you don't need to worry about buying, installing, maintaining, or upgrading your own computer equipment and software. Instead, you can access the resources you need on-demand, pay for what you use, and easily scale up or down as your needs change.This makes it easier and more cost-effective for businesses and individuals to access the computing power they need without the hassle of managing their own infrastructure.
+## 2. Six advanatges of cloud 
+- Trade fixed expenses for variable expense.
+- Benefit from massive economies of scale.
+- Stop guessing capacity
+- Increase speed and agility
+- Stop spending money and maintaining data centers.
+-  Go global in minutes.
+## 3. Cloud-computing Models
+- Infrastructure as a Service (IaaS) :contains the basic building blocks for cloud IT and typically provides access to networking features, computers (virtual or on dedicated hardware), and data storage space. IaaS provides you with the highest level of ﬂexibility and management control over your IT resources and is most similar to existing IT resources that many IT departments and developers are familiar with today.
+- Platform as a Service (PaaS) : removes the need for your organization to manage the underlying infrastructure (usually hardware and operating systems) and allows you to focus on the deployment and management of your applications. This helps you be more eﬃcient as you don’t need to worry
+about resource procurement, capacity planning, software maintenance, patching, or any of the other undiﬀerentiated heavy lifting involved in running your application.
+- Software as a Service (SaaS) : provides you with a completed product that is run and managed by the service provider. In most cases, people referring to Software as a Service are referring to end-user applications. With a SaaS oﬀering you do not have to think about how the service is maintained or how
+the underlying infrastructure is managed; you only need to think about how you will use that particular piece of software. A common example of a SaaS application is web-based email which you can use to send and receive email without having to manage feature additions to the email product or maintain the servers and operating systems that the email program is running on.
+## 4. Cloud-Deployment Models
+- Cloud : A cloud-based application is fully deployed in the cloud and all parts of the application run in the cloud. Applications in the cloud have either been created in the cloud or have been migrated from an existing infrastructure to take advantage of the beneﬁts of cloud computing. Cloud-based applications can be built on low-level infrastructure pieces or can use higher level services that provide abstraction from the
+management, architecting, and scaling requirements of core infrastructure.
+- Hybrid : A hybrid deployment is a way to connect infrastructure and applications between cloud-based resources and existing resources that are not located in the cloud. The most common method of hybrid deployment is between the cloud and existing on-premises infrastructure to extend, and grow, an organization's infrastructure into the cloud while connecting cloud resources to the internal system.
+- On-premises : The deployment of resources on-premises, using virtualization and resource management tools, is sometimes called the “private cloud.” On-premises deployment doesn’t provide many of the beneﬁts of cloud computing but is sometimes sought for its ability to provide dedicated resources. In most cases this deployment model is the same as legacy IT infrastructure while using application management and virtualization technologies to try and increase resource utilization. 
