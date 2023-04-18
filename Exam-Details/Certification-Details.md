@@ -6,6 +6,6 @@ role-based AWS Certifications.
 
 # Format / Cost / Duration 
 
-1. Exam will have total 65 question of either multiple choice or multiple response.
-2. Base cost is 100 USD but come tax also add up so it can be in the range of [ 100 - 117 USD ]
-3. You will have 90 minutes to complete the exam
+1. Total 65 question of either multiple choice or multiple response-type.
+2. Base cost is 100 USD but due to service-tax add up it will cost you around [ 100 - 117 USD ]
+3. Have 90 minutes to complete the exam.
