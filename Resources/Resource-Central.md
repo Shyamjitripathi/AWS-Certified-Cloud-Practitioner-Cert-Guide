@@ -14,3 +14,5 @@
 
 1. [ Stephane Mareek Udemy Course ](https://www.udemy.com/user/stephane-maarek/)
 2. [ Learn Centril Courses ](https://learn.cantrill.io/courses)
+3. [TutorialsDojo Course and Mock-Test ](https://portal.tutorialsdojo.com/courses/aws-certified-cloud-practitioner-practice-exams/)
+4. [Whizlab Course ](https://www.whizlabs.com/aws-certified-cloud-practitioner/)
