@@ -20,3 +20,10 @@ Cloud computing is a way to access computer resources (like servers, storage, da
 - Cloud-based applications : run fully in the cloud and can be built on low-level infrastructure or higher level services that abstract management, architecting, and scaling requirements.
 - Hybrid deployment : connects cloud-based and non-cloud-based resources, most commonly on-premises infrastructure, to extend and grow an organization's infrastructure.
 - On-premises deployment : uses virtualization and resource management tools and is sometimes called the "private cloud." It doesn't offer many cloud computing benefits but may provide dedicated resources, similar to legacy IT infrastructure.
+
+## 5. Important terms 
+
+- High availability: system which are designed to operate continuously without failure for long time.
+- Elasticity : means you don't have to plan ahead of time how much capacity you need.
+- Agility : means it will speed up your innovation and development time.
+- Durability : means long-term data protection.
