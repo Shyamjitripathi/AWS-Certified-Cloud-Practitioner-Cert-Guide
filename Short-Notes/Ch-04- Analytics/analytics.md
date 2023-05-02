@@ -82,15 +82,7 @@ more than 14 billion healthcare transactions and $1 trillion in claims annually;
 maintain a database of more than 330 million global business records; and Foursquare, whose location
 data is derived from 220 million unique consumers and includes more than 60 million global commercial
 venues. Once subscribed to a data product, you can use the AWS Data Exchange API to load data directly into
-Amazon S3 and then analyze it with a wide variety of AWS analytics and ML services. For example,
-property insurers can subscribe to data to analyze historical weather patterns to calibrate insurance
-coverage requirements in diﬀerent geographies; restaurants can subscribe to population and location
-data to identify optimal regions for expansion; academic researchers can conduct studies on climate
-change by subscribing to data on carbon dioxide emissions; and healthcare professionals can subscribe to
-aggregated data from historical clinical trials to accelerate their research activities.
-For data providers, AWS Data Exchange makes it easy to reach the millions of AWS customers migrating
-to the cloud by removing the need to build and maintain infrastructure for data storage, delivery, billing,
-and entitling.
+Amazon S3 and then analyze it with a wide variety of AWS analytics and ML services.
 - AWS Data Pipeline : is a web service that helps you reliably process and move data between diﬀerent
 AWS compute and storage services, as well as on-premises data sources, at speciﬁed intervals. With AWS
 Data Pipeline, you can regularly access your data where it’s stored, transform and process it at scale, and
@@ -106,35 +98,3 @@ AWS Management Console. You simply point AWS Glue to your data stored on AWS, an
 discovers your data and stores the associated metadata (such as table deﬁnition and schema) in the AWS
 Glue Data Catalog. Once cataloged, your data is immediately searchable, queryable, and available for
 ETL.
-- AWS Lake Formation : is a service that makes it easy to set up a secure data lake in days. A data lake is
-a centralized, curated, and secured repository that stores all your data, both in its original form and
-prepared for analysis. A data lake enables you to break down data silos and combine diﬀerent types of
-analytics to gain insights and guide better business decisions.However, setting up and managing data lakes today involves a lot of manual, complicated, and time-
-consuming tasks. This work includes loading data from diverse sources, monitoring those data ﬂows,
-setting up partitions, turning on encryption and managing keys, deﬁning transformation jobs and
-monitoring their operation, re-organizing data into a columnar format, conﬁguring access control
-settings, deduplicating redundant data, matching linked records, granting access to data sets, and
-auditing access over time.Creating a data lake with Lake Formation is as simple as deﬁning where your data resides and what
-data access and security policies you want to apply. Lake Formation then collects and catalogs data
-from databases and object storage, moves the data into your new Amazon S3 data lake, cleans and
-classiﬁes data using ML algorithms, and secures access to your sensitive data. Your users can then access
-a centralized catalog of data which describes available data sets and their appropriate usage. Your users
-then leverage these data sets with their choice of analytics and ML services, such as Amazon EMR for
-Apache Spark, Amazon Redshift, Amazon Athena, SageMaker, and Amazon QuickSight.
-- Amazon Managed Streaming for Apache Kafka(Amazon MSK) : is a fully managed service that makes
-it easy for you to build and run applications that use Apache Kafka to process streaming data. Apache
-Kafka is an open-source platform for building real-time streaming data pipelines and applications.
-With Amazon MSK, you can use Apache Kafka APIs to populate data lakes, stream changes to and from
-databases, and power ML and analytics applications.
-Apache Kafka clusters are challenging to setup, scale, and manage in production. When you run Apache
-Kafka on your own, you need to provision servers, conﬁgure Apache Kafka manually, replace servers
-when they fail, orchestrate server patches and upgrades, architect the cluster for high availability, ensure
-data is durably stored and secured, setup monitoring and alarms, and carefully plan scaling events to
-support load changes. Amazon MSK makes it easy for you to build and run production applications on
-Apache Kafka without needing Apache Kafka infrastructure management expertise. That means you
-spend less time managing infrastructure and more time building applications.
-With a few clicks in the Amazon MSK console you can create highly available Apache Kafka clusters
-with settings and conﬁguration based on Apache Kafka’s deployment best practices. Amazon MSK
-automatically provisions and runs your Apache Kafka clusters. Amazon MSK continuously monitors
-cluster health and automatically replaces unhealthy nodes with no downtime to your application. In
-addition, Amazon MSK secures your Apache Kafka cluster by encrypting data at rest.
