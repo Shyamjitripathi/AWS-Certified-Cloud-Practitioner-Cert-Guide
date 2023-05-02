@@ -1,10 +1,7 @@
 # Application Integration
 
 - AWS Step Functions : is a fully managed service that makes it easy to coordinate the components of
-distributed applications and microservices using visual workﬂows. Building applications from individual
-components that each perform a discrete function lets you scale easily and change applications quickly.
-Step Functions is a reliable way to coordinate components and step through the functions of your
-application. Step Functions provides a graphical console to arrange and visualize the components of
+distributed applications and microservices using visual workﬂows.Step Functions provides a graphical console to arrange and visualize the components of
 your application as a series of steps. This makes it simple to build and run multi-step applications.
 Step Functions automatically triggers and tracks each step, and retries when there are errors, so your
 application runs in order and as expected. Step Functions logs the state of each step, so when things do
@@ -25,14 +22,6 @@ applications, and AWS services. EventBridge delivers a stream of real-time data 
 such as Zendesk or Shopify to targets such as AWS Lambda and other SaaS applications. You can set up
 routing rules to determine where to send your data to build application architectures that react in real-
 time to your data sources with event publisher and consumer completely decoupled.
-- Amazon Managed Workﬂows for Apache Airﬂow (MWAA) : is a managed orchestration service for Apache
-Airﬂow that makes it easier to set up and operate end-to-end data pipelines in the cloud at scale. Apache
-Airﬂow is an open-source tool used to programmatically author, schedule, and monitor sequences of
-processes and tasks referred to as “workﬂows.” With Managed Workﬂows, you can use Airﬂow and
-Python to create workﬂows without having to manage the underlying infrastructure for scalability,
-availability, and security. Managed Workﬂows automatically scales its workﬂow execution capacity to
-meet your needs, and is integrated with AWS security services to help provide you with fast and secure
-access to data.
 - Amazon MQ : is a managed message broker service for Apache ActiveMQ and RabbitMQ that makes it
 easy to set up and operate message brokers in the cloud. Message brokers allow diﬀerent software
 systems–often using diﬀerent programming languages, and on diﬀerent platforms–to communicate
@@ -57,8 +46,3 @@ other services to be available. Get started with Amazon SQS in minutes using the
 Console, AWS CLI, or SDK of your choice, and three simple commands. Amazon SQS oﬀers two types of message queues. Standard queues oﬀer maximum throughput, best-
 eﬀort ordering, and at-least-once delivery. Amazon SQS FIFO queues are designed to guarantee that
 messages are processed exactly once, in the exact order that they are sent.
-- Amazon Simple Workﬂow Service (Amazon SWF) : helps developers build, run, and scale background
-jobs that have parallel or sequential steps. You can think of Amazon SWF as a fully-managed state
-tracker and task coordinator in the cloud. If your application’s steps take more than 500 milliseconds to
-complete, you need to track the state of processing. If you need to recover or retry if a task fails, Amazon
-SWF can help you.
