@@ -9,10 +9,10 @@ This guide is usefull for someone who is looking to enter in cloud domain and wa
 
 ## Only things you have to do is :
 
-1. Go -through any video lecture course.
-2. Read AWS Whitepaper at-least three times.
-3. Give as much mock-test you can give.
-4. Only have to give <b>  2-week time [ daily 3-4 hours ] <b> and you are good to go.
+- [x] Go -through any video lecture course.
+- [x] Read AWS Whitepaper at-least three times.
+- [x] Give as much mock-test you can give.
+- [x] Only have to give <b>  2-week time [ daily 3-4 hours ] <b> and you are good to go.
 
 
 ## Contributor to this guide 
