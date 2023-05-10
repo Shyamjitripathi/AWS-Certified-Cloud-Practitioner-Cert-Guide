@@ -1,5 +1,6 @@
-Amazon EC2
-Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute
+## Compute-Service
+
+- Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute
 capacity in the cloud. It is designed to make web-scale computing easier for developers.
 The simple web interface of Amazon EC2 allows you to obtain and conﬁgure capacity with minimal
 friction. It provides you with complete control of your computing resources and lets you run on Amazon’s
@@ -9,63 +10,55 @@ down, as your computing requirements change. Amazon EC2 changes the economics of
 allowing you to pay only for capacity that you actually use. Amazon EC2 provides developers and system
 administrators the tools to build failure resilient applications and isolate themselves from common
 failure scenarios.
-Instance types
-Amazon EC2 passes on to you the ﬁnancial beneﬁts of Amazon scale. You pay a very low rate for the
-compute capacity you actually consume. Refer to Amazon EC2 Instance Purchasing Options for a more
-detailed description.
-• On-Demand Instances — With On-Demand Instances, you pay for compute capacity by the hour or
+
+ <li>Instance types : Amazon EC2 passes on to you the ﬁnancial beneﬁts of Amazon scale. You pay a very low rate for the
+compute capacity you actually consume. 
+    <ol><br>
+      <li>On-Demand Instances — With On-Demand Instances, you pay for compute capacity by the hour or
 the second depending on which instances you run. No longer-term commitments or upfront payments
 are needed. You can increase or decrease your compute capacity depending on the demands of your
-application and only pay the speciﬁed per hourly rates for the instance you use. On-Demand Instances
-are recommended for:
-• Users that prefer the low cost and ﬂexibility of Amazon EC2 without any up-front payment or long-
-term commitment
-• Applications with short-term, spiky, or unpredictable workloads that cannot be interrupted
-• Applications being developed or tested on Amazon EC2 for the ﬁrst time
-• Spot Instances —Spot Instances are available at up to a 90% discount compared to On-Demand
+application and only pay the speciﬁed per hourly rates for the instance you use. </li>
+      <li>Spot Instances —Spot Instances are available at up to a 90% discount compared to On-Demand
 prices and let you take advantage of unused Amazon EC2 capacity in the AWS Cloud. You can
 signiﬁcantly reduce the cost of running your applications, grow your application’s compute capacity
-and throughput for the same budget, and enable new types of cloud computing applications. Spot
-Instances are recommended for:
-• Applications that are only feasible at very low compute prices
-• Users with urgent computing needs for large amounts of additional capacity
-• Reserved Instances—Reserved Instances provide you with a signiﬁcant discount (up to 72%)
+and throughput for the same budget, and enable new types of cloud computing applications. </li>
+      <li>Reserved Instances—Reserved Instances provide you with a signiﬁcant discount (up to 72%)
 compared to On-Demand Instance pricing. You have the ﬂexibility to change families, operating
 system types, and tenancies while beneﬁtting from Reserved Instance pricing when you use
-Convertible Reserved Instances.
-• Savings Plans—Savings Plans are a ﬂexible pricing model that oﬀer low prices on EC2 and Fargate
+        Convertible Reserved Instances.</li>
+      <li>Savings Plans—Savings Plans are a ﬂexible pricing model that oﬀer low prices on EC2 and Fargate
 usage, in exchange for a commitment to a consistent amount of usage (measured in $/hour) for a one
-or three year term.
-• Dedicated Hosts—A Dedicated Host is a physical EC2 server dedicated for your use. Dedicated Hosts
+or three year term.</li>
+      <li>Dedicated Hosts—A Dedicated Host is a physical EC2 server dedicated for your use. Dedicated Hosts
 can help you reduce costs by allowing you to use your existing server-bound software licenses,
 including Windows Server, SQL Server, and SUSE Linux Enterprise Server (subject to your license
 terms), and can also help you meet compliance requirements.
-Amazon EC2 Auto Scaling
-Amazon EC2 Auto Scaling helps you maintain application availability and allows you to automatically
+</li> 
+    </ol>
+  </li>
+  
+- Amazon EC2 Auto Scaling : helps you maintain application availability and allows you to automatically
 add or remove EC2 instances according to conditions you deﬁne. You can use the ﬂeet management
 features of Amazon EC2 Auto Scaling to maintain the health and availability of your ﬂeet. You can also
 use the dynamic and predictive scaling features of Amazon EC2 Auto Scaling to add or remove EC2
 instances. Dynamic scaling responds to changing demand and predictive scaling automatically schedules
 the right number of EC2 instances based on predicted demand. Dynamic scaling and predictive scaling
 can be used together to scale faster.
-Amazon EC2 Image Builder
-EC2 Image Builder simpliﬁes the building, testing, and deployment of VMs and container images for use
-on AWS or on-premises.
-Keeping virtual machine (VM) and container images up-to-date can be time consuming, resource
+
+- Amazon EC2 Image Builder : simpliﬁes the building, testing, and deployment of VMs and container images for use
+on AWS or on-premises.Keeping virtual machine (VM) and container images up-to-date can be time consuming, resource
 intensive, and error-prone. Currently, customers either manually update and snapshot VMs or have
-teams that build automation scripts to maintain images.
-EC2 Image Builder signiﬁcantly reduces the eﬀort of keeping images up-to-date and secure by providing
+teams that build automation scripts to maintain images.EC2 Image Builder signiﬁcantly reduces the eﬀort of keeping images up-to-date and secure by providing
 a simple graphical interface, built-in automation, and AWS-provided security settings. With Image
 Builder, there are no manual steps for updating an image nor do you have to build your own automation
-pipeline.
-Image Builder is oﬀered at no cost, other than the cost of the underlying AWS resources used to create,
+pipeline.Image Builder is oﬀered at no cost, other than the cost of the underlying AWS resources used to create,
 store, and share the images.
-Amazon Lightsail
-Amazon Lightsail is designed to be the easiest way to launch and manage a virtual private server with
+
+- Amazon Lightsail : is designed to be the easiest way to launch and manage a virtual private server with
 AWS. Lightsail plans include everything you need to jumpstart your project – a VM, SSD-based storage,
 data transfer, DNS management, and a static IP address – for a low, predictable price.
-AWS App Runner
-AWS App Runner is a fully managed service that makes it easy for developers to quickly deploy
+
+- AWS App Runner : is a fully managed service that makes it easy for developers to quickly deploy
 containerized web applications and APIs, at scale and with no prior infrastructure experience required.
 Start with your source code or a container image. AWS App Runner automatically builds and deploys
 the web application and load balances traﬃc with encryption. App Runner also scales up or down
@@ -76,7 +69,7 @@ AWS Batch enables developers, scientists, and engineers to easily and eﬃcientl
 thousands of batch computing jobs on AWS. AWS Batch dynamically provisions the optimal quantity
 and type of compute resources (such as CPU or memory-optimized instances) based on the volume and
 speciﬁc resource requirements of the batch jobs submitted. With AWS Batch, there is no need to install
-and manage batch computing software or server clusters that you use to run your jobs, allowing you
+and manage batch computing software or server clusters Amazon Lightsailthat you use to run your jobs, allowing you
 to focus on analyzing results and solving problems. AWS Batch plans, schedules, and runs your batch
 computing workloads across the full range of AWS compute services and features, such as Amazon EC2
 and Spot Instances.
