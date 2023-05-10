@@ -101,26 +101,25 @@ of server to use, which applications and how many containers to run in a cluster
 and when you should add or remove servers from a cluster. EC2 launch type gives you more control of
 your server clusters and provides a broader range of customization options, which might be required to
 support some speciﬁc applications or possible compliance and government requirements.
-AWS Lambda
-AWS Lambda lets you run code without provisioning or managing servers. You pay only for the compute
+
+- AWS Lambda : lets you run code without provisioning or managing servers. You pay only for the compute
 time you consume—there is no charge when your code is not running. With Lambda, you can run code
 for virtually any type of application or backend service—all with zero administration. Just upload your
 code, and Lambda takes care of everything required to run and scale your code with high availability. You
 can set up your code to automatically trigger from other AWS services, or you can call it directly from any
 web or mobile app.
-AWS Serverless Application Repository
-The AWS Serverless Application Repository enables you to quickly deploy code samples, components,
+
+- AWS Serverless Application Repository : enables you to quickly deploy code samples, components,
 and complete applications for common use cases such as web and mobile back-ends, event and data
 processing, logging, monitoring, Internet of Things (IoT), and more. Each application is packaged with an
 AWS Serverless Application Model (SAM) template that deﬁnes the AWS resources used. Publicly shared
 applications also include a link to the application’s source code. There is no additional charge to use the
 AWS Serverless Application Repository - you only pay for the AWS resources used in the applications you
-deploy.
-You can also use the AWS Serverless Application Repository to publish your own applications and share
+deploy.You can also use the AWS Serverless Application Repository to publish your own applications and share
 them within your team, across your organization, or with the community at large. To share an application
 you've built, publish it to the AWS Serverless Application Repository.
-AWS Outposts
-AWS Outposts bring native AWS services, infrastructure, and operating models to virtually any data
+
+- AWS Outposts : bring native AWS services, infrastructure, and operating models to virtually any data
 center, co-location space, or on-premises facility. You can use the same APIs, the same tools, the same
 hardware, and the same functionality across on-premises and the cloud to deliver a truly consistent
 hybrid experience. Outposts can be used to support workloads that need to remain on-premises due to
@@ -134,16 +133,15 @@ AWS Outposts infrastructure is fully managed, maintained, and supported by AWS t
 the latest AWS services. Getting started is easy, you simply log into the AWS Management Console to
 order your Outposts servers, choosing from a wide range of compute and storage options. You can order
 one or more servers, or quarter, half, and full rack units.
-AWS Wavelength
-AWS Wavelength is an AWS Infrastructure oﬀering optimized for mobile edge computing applications.
+
+- AWS Wavelength : is an AWS Infrastructure oﬀering optimized for mobile edge computing applications.
 Wavelength Zones are AWS infrastructure deployments that embed AWS compute and storage
 services within communications service providers’ (CSP) datacenters at the edge of the 5G network, so
 application traﬃc from 5G devices can reach application servers running in Wavelength Zones without
 leaving the telecommunications network. This avoids the latency that would result from application
 traﬃc having to traverse multiple hops across the Internet to reach their destination, enabling customers
 to take full advantage of the latency and bandwidth beneﬁts oﬀered by modern 5G networks.
-VMware Cloud on AWS
-VMware Cloud on AWS is an integrated cloud oﬀering jointly developed by AWS and VMware delivering a
+VMware Cloud on AWS VMware Cloud on AWS is an integrated cloud oﬀering jointly developed by AWS and VMware delivering a
 highly scalable, secure and innovative service that allows organizations to seamlessly migrate and extend
 their on-premises VMware vSphere-based environments to the AWS Cloud running on next-generation
 Amazon Elastic Compute Cloud (Amazon EC2) bare metal infrastructure. VMware Cloud on AWS is
