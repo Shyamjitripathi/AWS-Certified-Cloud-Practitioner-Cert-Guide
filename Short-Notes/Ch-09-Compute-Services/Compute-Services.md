@@ -64,8 +64,8 @@ Start with your source code or a container image. AWS App Runner automatically b
 the web application and load balances traﬃc with encryption. App Runner also scales up or down
 automatically to meet your traﬃc needs. With App Runner, rather than thinking about servers or scaling,
 you have more time to focus on your applications.
-AWS Batch
-AWS Batch enables developers, scientists, and engineers to easily and eﬃciently run hundreds of
+
+- AWS Batch : enables developers, scientists, and engineers to easily and eﬃciently run hundreds of
 thousands of batch computing jobs on AWS. AWS Batch dynamically provisions the optimal quantity
 and type of compute resources (such as CPU or memory-optimized instances) based on the volume and
 speciﬁc resource requirements of the batch jobs submitted. With AWS Batch, there is no need to install
@@ -73,30 +73,30 @@ and manage batch computing software or server clusters Amazon Lightsailthat you 
 to focus on analyzing results and solving problems. AWS Batch plans, schedules, and runs your batch
 computing workloads across the full range of AWS compute services and features, such as Amazon EC2
 and Spot Instances.
-AWS Elastic Beanstalk
-AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications and services
+
+- AWS Elastic Beanstalk : is an easy-to-use service for deploying and scaling web applications and services
 developed with Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar servers such as
 Apache, Nginx, Passenger, and Internet Information Services (IIS).
 You can simply upload your code, and AWS Elastic Beanstalk automatically handles the deployment,
 from capacity provisioning, load balancing, and auto scaling to application health monitoring. At the
 same time, you retain full control over the AWS resources powering your application and can access the
 underlying resources at any time.
-AWS Fargate
-AWS Fargate is a compute engine for Amazon ECS that allows you to run containers without having to
+
+- AWS Fargate : is a compute engine for Amazon ECS that allows you to run containers without having to
 manage servers or clusters. With AWS Fargate, you no longer have to provision, conﬁgure, and scale
 clusters of VMs to run containers. This removes the need to choose server types, decide when to scale
 your clusters, or optimize cluster packing. Fargate removes the need for you to interact with or think
 about servers or clusters. Fargate lets you focus on designing and building your applications instead of
 managing the infrastructure that runs them.
-Amazon ECS has two modes: Fargate launch type and EC2 launch type. With Fargate launch type, all
+
+- Amazon ECS has two modes: Fargate launch type and EC2 launch type. With Fargate launch type, all
 you have to do is package your application in containers, specify the CPU and memory requirements,
 deﬁne networking and IAM policies, and launch the application. EC2 launch type allows you to have
 server-level, more granular control over the infrastructure that runs your container applications. With
 EC2 launch type, you can use Amazon ECS to manage a cluster of servers and schedule placement
 of containers on the servers. Amazon ECS keeps track of all the CPU, memory and other resources in
 your cluster, and also ﬁnds the best server for a container to run on based on your speciﬁed resource
-requirements.
-You are responsible for provisioning, patching, and scaling clusters of servers. You can decide which type
+requirements.You are responsible for provisioning, patching, and scaling clusters of servers. You can decide which type
 of server to use, which applications and how many containers to run in a cluster to optimize utilization,
 and when you should add or remove servers from a cluster. EC2 launch type gives you more control of
 your server clusters and provides a broader range of customization options, which might be required to
