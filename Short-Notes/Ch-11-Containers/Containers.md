@@ -28,10 +28,7 @@ any standard Kubernetes environment are fully compatible and can be easily migra
 containerized applications. A2C analyzes and builds an inventory of all applications running in VMs,
 on-premises or in the cloud. You simply select the application you want to containerize, and A2C
 packages the application artifact and identiﬁed dependencies into container images, conﬁgures the
-network ports, and generates the ECS task and Kubernetes pod deﬁnitions. A2C provisions, through AWS
-CloudFormation, the cloud infrastructure and CI/CD pipelines required to deploy the containerized .NET
-or Java application into production. With A2C, you can easily modernize your existing applications and
-standardize the deployment and operations through containers.
+network ports, and generates the ECS task and Kubernetes pod deﬁnitions.
 
 - Red Hat OpenShift Service on AWS (ROSA) : provides an integrated experience to use OpenShift. If you are
 already familiar with OpenShift, you can accelerate your application development process by leveraging
