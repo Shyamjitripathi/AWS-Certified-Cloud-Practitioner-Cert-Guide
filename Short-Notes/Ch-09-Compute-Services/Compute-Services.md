@@ -89,19 +89,6 @@ your clusters, or optimize cluster packing. Fargate removes the need for you to 
 about servers or clusters. Fargate lets you focus on designing and building your applications instead of
 managing the infrastructure that runs them.
 
-- Amazon ECS has two modes: Fargate launch type and EC2 launch type. With Fargate launch type, all
-you have to do is package your application in containers, specify the CPU and memory requirements,
-deﬁne networking and IAM policies, and launch the application. EC2 launch type allows you to have
-server-level, more granular control over the infrastructure that runs your container applications. With
-EC2 launch type, you can use Amazon ECS to manage a cluster of servers and schedule placement
-of containers on the servers. Amazon ECS keeps track of all the CPU, memory and other resources in
-your cluster, and also ﬁnds the best server for a container to run on based on your speciﬁed resource
-requirements.You are responsible for provisioning, patching, and scaling clusters of servers. You can decide which type
-of server to use, which applications and how many containers to run in a cluster to optimize utilization,
-and when you should add or remove servers from a cluster. EC2 launch type gives you more control of
-your server clusters and provides a broader range of customization options, which might be required to
-support some speciﬁc applications or possible compliance and government requirements.
-
 - AWS Lambda : lets you run code without provisioning or managing servers. You pay only for the compute
 time you consume—there is no charge when your code is not running. With Lambda, you can run code
 for virtually any type of application or backend service—all with zero administration. Just upload your
@@ -124,15 +111,6 @@ center, co-location space, or on-premises facility. You can use the same APIs, t
 hardware, and the same functionality across on-premises and the cloud to deliver a truly consistent
 hybrid experience. Outposts can be used to support workloads that need to remain on-premises due to
 low latency or local data processing needs.
-AWS Outposts come in two variants:
-• VMware Cloud on AWS Outposts allows you to use the same VMware control plane and APIs you use to
-run your infrastructure.
-• AWS-native variant of AWS Outposts allows you to use the same exact APIs and control plane you use
-to run in the AWS Cloud, but on-premises.
-AWS Outposts infrastructure is fully managed, maintained, and supported by AWS to deliver access to
-the latest AWS services. Getting started is easy, you simply log into the AWS Management Console to
-order your Outposts servers, choosing from a wide range of compute and storage options. You can order
-one or more servers, or quarter, half, and full rack units.
 
 - AWS Wavelength : is an AWS Infrastructure oﬀering optimized for mobile edge computing applications.
 Wavelength Zones are AWS infrastructure deployments that embed AWS compute and storage
@@ -141,32 +119,3 @@ application traﬃc from 5G devices can reach application servers running in Wav
 leaving the telecommunications network. This avoids the latency that would result from application
 traﬃc having to traverse multiple hops across the Internet to reach their destination, enabling customers
 to take full advantage of the latency and bandwidth beneﬁts oﬀered by modern 5G networks.
-VMware Cloud on AWS VMware Cloud on AWS is an integrated cloud oﬀering jointly developed by AWS and VMware delivering a
-highly scalable, secure and innovative service that allows organizations to seamlessly migrate and extend
-their on-premises VMware vSphere-based environments to the AWS Cloud running on next-generation
-Amazon Elastic Compute Cloud (Amazon EC2) bare metal infrastructure. VMware Cloud on AWS is
-ideal for enterprise IT infrastructure and operations organizations looking to migrate their on-premises
-vSphere-based workloads to the public cloud, consolidate and extend their data center capacities, and
-optimize, simplify and modernize their disaster recovery solutions.
-VMware Cloud on AWS is delivered, sold, and supported globally by VMware and its partners with
-availability in the following AWS Regions: AWS Europe (Stockholm), AWS US East (Northern Virginia),
-AWS US East (Ohio), AWS US West (Northern California), AWS US West (Oregon), AWS Canada (Central),
-AWS Europe (Frankfurt), AWS Europe (Ireland), AWS Europe (London), AWS Europe (Paris), AWS Europe
-(Milan), AWS Asia Paciﬁc (Singapore), AWS Asia Paciﬁc (Sydney), AWS Asia Paciﬁc (Tokyo), AWS Asia
-Paciﬁc (Mumbai) Region, AWS South America (Sao Paulo), AWS Asia Paciﬁc (Seoul), and AWS GovCloud
-(US West). With each release, VMware Cloud on AWS availability will expand into additional global
-regions.
-VMware Cloud on AWS brings the broad, diverse and rich innovations of AWSservices natively to the
-enterprise applications running on VMware's compute, storage and network virtualization platforms.
-This allows organizations to easily and rapidly add new innovations to their enterprise applications by
-natively integrating AWS infrastructure and platform capabilities such as AWS Lambda, Amazon Simple
-Queue Service (SQS), Amazon S3, Elastic Load Balancing, Amazon RDS, Amazon DynamoDB, Amazon
-Kinesis, and Amazon Redshift, among many others.
-With VMware Cloud on AWS, organizations can simplify their Hybrid IT operations by using the same
-VMware Cloud Foundation technologies including vSphere, vSAN, NSX, and vCenter Server across
-their on-premises data centers and on the AWS Cloud without having to purchase any new or custom
-hardware, rewrite applications, or modify their operating models. The service automatically provisions
-infrastructure and provides full VM compatibility and workload portability between your on-premises
-environments and the AWS Cloud. With VMware Cloud on AWS, you can use a broad range of AWS
-services, including compute, databases, analytics, IoT, security, mobile, deployment, application services,
-and more.
