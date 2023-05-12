@@ -37,7 +37,4 @@ standardize the deployment and operations through containers.
 already familiar with OpenShift, you can accelerate your application development process by leveraging
 familiar OpenShift APIs and tools for deployments on AWS. With ROSA, you can use the wide range of
 AWS compute, database, analytics, machine learning (ML), networking, mobile, and other services to
-build secure and scalable applications faster. ROSA comes with pay-as-you-go hourly and annual billing,
-a 99.95% SLA, and joint support from AWS and Red Hat.ROSA makes it easier for you to focus on deploying applications and accelerating innovation by
-moving the cluster lifecycle management to Red Hat and AWS. With ROSA, you can run containerized
-applications with your existing OpenShift workﬂows and reduce the complexity of management.
+build secure and scalable applications faster.
